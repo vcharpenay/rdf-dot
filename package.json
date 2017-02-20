@@ -1,0 +1,23 @@
+{
+  "name": "rdf-dot",
+  "version": "0.0.1",
+  "description": "DOT serializer for RDF, compliant with W3C RDF Interfaces",
+  "keywords": ["rdf", "rdf interfaces", "dot"],
+  "license": "MIT",
+  "author": {
+    "name": "Victor Charpenay",
+    "url": "http://github.com/vcharpenay/"
+  },
+  "main": "src/DOTSerializer.js",
+  "scripts": {
+    "test": "node test/test-sensor1.js"
+  },
+  "repository": "vcharpenay/rdf-dot",
+  "dependencies": {},
+  "devDependencies": {
+    "rdf": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=6.5"
+  }
+}

@@ -1,0 +1,5 @@
+<http://example.org/sensor1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#SensingDevice> .
+<http://example.org/sensor1> <http://www.w3c.org/wot/td#hasProperty> <http://example.org/sensor1/temp> .
+<http://example.org/sensor1/temp> <http://example.org/curVal> "54" .
+<http://example.org/sensor1/temp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.oclc.org/NET/ssnx/ssn#Property> .
+<http://example.org/sensor1/temp> <http://data.nasa.gov/qudt/owl/qudt#unit> <http://data.nasa.gov/qudt/owl/unit#DegreeCelsius> .
